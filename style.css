@@ -1,0 +1,273 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home {
+    background: linear-gradient(136deg, #bdb8f0, #dcc4d4);
+    height: 650px;
+}
+.manu {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background: white;
+    margin: 0px 200px;
+    margin-top: 20px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.manuall {position: relative;}
+
+
+.logo {
+    font-size: 30px;
+    margin: 0px 15px;
+}
+
+.name h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #0b3042;
+    margin-right: 250px;
+}
+
+.contact a {
+    margin-right: 15px;
+    background: #0b3042;
+    color: white;
+    padding: 10px 17px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.list ul li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.list {
+    margin-right: 250px;
+}
+.list ul li a {
+    text-decoration: none;
+    color: #0b3042;
+}
+
+.wifi {
+    padding-top: 125px;
+}
+
+/* homepage */
+
+.wifihome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.wifititle h1 {
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 10px;
+    color: #0b3042;
+    font-family: sans-serif;
+    letter-spacing: -2px;
+}
+.wifibutton a.Book {
+    background: #0b3042;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.wifibutton a.Get {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid #ebd1e4;
+}
+
+.wifibutton {
+    margin-top: 40px;
+}
+.service {
+    background: linear-gradient(94deg, #b4a2e1, #f3d4d2);
+    height: 650px;
+    position: relative;
+}
+
+.layout {
+    background: white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    width: 90%;
+    margin-bottom: 35px;
+}
+
+.layout h3 {
+    margin: 0px;
+    font-family: sans-serif;
+    color: #607c71;
+}
+
+.layout p {
+    margin-bottom: unset;
+    font-family: math;
+    font-size: 15px;
+    color: #6f7b60;
+}
+
+.home-layout {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 25% 25% 25%;
+    grid-column-gap: 40px;
+    position: absolute;
+    top: 60px;
+    left: 15%;
+}
+
+#layout-2{
+    background: #0a303b;
+}
+#layout-2 h3{
+    color: white;
+} 
+#layout-2 p{
+    color: rgb(237, 232, 232);
+}  
+
+#layout-3{
+    background: #5453d2;
+}
+
+#layout-3 h3{
+    color: white;
+} 
+#layout-3 p{
+    color: rgb(237, 232, 232);
+} 
+#layout-2 img {
+    width: 90px;
+}
+
+/* responsive design */
+
+@media only screen and (max-width: 600px) {
+        .manu {
+            margin: 0px 20px;
+            display: flex;
+            position: unset;
+        }
+        
+        .logo {
+            font-size: 18px;
+            margin: 0px 10px;
+        }
+        
+        .name h1 {
+            font-size: 15px;
+            margin-right: -10px;
+        }
+        
+        .list {
+            margin-right: 30px;
+        }
+        
+        .contact a {
+            font-size: 10px;
+            padding: 5px;
+        }
+        
+        .list ul li {
+            font-size: 10px;
+        }
+        .wifiImage img {
+            width: 100%;
+        }
+        
+        .wifititle h1 {
+            font-size: 27px;
+            letter-spacing: 0px;
+        }
+        
+        .wifihome {
+            gap: 0px;
+            justify-content: unset;
+            display: block;
+        }
+        
+     .wifititle {margin-left: 15px;}
+
+     .home {
+      height: 100%;
+      }
+      .home-layout {
+        display: block;
+        left: 20px;
+    }
+    
+    .layout {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .service {
+        height: 1170px;
+        margin-top: -50px;
+    }
+    .wifi {
+        padding-top: 80px;
+    }
+    .wifiImage {
+        margin: 50px;
+    }
+  }
+
+
+/*video section */
+
+.videos {
+    background: linear-gradient(136deg, #bdb8f0, #dcc4d4);
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videos h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #0b3042;
+    margin-bottom: 30px;
+}
+
+.video-wrapper {
+    margin-bottom: 20px;
+}
+
+/* Responsive design for videos */
+
+@media only screen and (max-width: 600px) {
+    .videos {
+        padding: 30px 0;
+    }
+
+    .videos h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .video-wrapper {
+        max-width: 100%;
+    }
+}
